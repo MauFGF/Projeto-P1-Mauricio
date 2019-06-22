@@ -1,0 +1,24 @@
+12032019 1227 (E) danca
+12032019 1228 (F) jogar bola
+04052002 (A) charuto
+22052019 sangrar @estacionamento
+27112019 cagar +privada
+1224 comer cebola
+0604 (A) sala
+0412 samba @sambodromo
+1805 suquinho +largar
+(A) Comer vegetal
+ vender água @bar
+ comprar cigarro @posto +vicio
+23052017 1030 Reunião com Huguinho, Luizinho e Zezinho. @Skype +Pesquisa
+12052019 1204 (B) Terminar a especificacao do projeto de IF968. +IF968
+(B) Publicar a especificacao do projeto de IF968 terminada. +IF968
+13072019 (A) Corrigir provas de IF968 +IF968
+23052019 (A) Ler artigo IST. +Serviço
+23052019 2215 Dormir cedo @Casa
+(B) Revisar artigo IST +Service
+(B) Revisar artigos SBES +Service
+(B) Revisar artigos SBES Education +Service
+1243 (B) Revisar artigos SBES Insightful Ideas +Service
+(B) Revisar artigos SBLP +Service
+(D) Read "Optimizing energy consumption of GUIs in android apps: A multi-objective approach.
