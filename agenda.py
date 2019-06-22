@@ -381,6 +381,7 @@ def processarComandos(comandos):
   elif comandos[1] == LISTAR:
     if len(comandos)-1 == 1:
       comandos += [chr(32)]
+    comandos[2] = comandos[2].upper() 
     filtrar(comandos)     
   elif comandos[1] == REMOVER:
     num = comandos[2]
