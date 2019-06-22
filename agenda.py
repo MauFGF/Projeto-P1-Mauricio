@@ -132,9 +132,9 @@ def organizar(linhas):
       l=l.strip()
       tokens = l.split()
       for x in tokens: 
-          if horaValida(x) == True and x == tokens[0]:
+          if horaValida(x) == True and (x == tokens[0] or x == tokens[1]):
               hora = x     
-          elif dataValida(x) == True  and  (x == tokens[0] or x == tokens[1]):
+          elif dataValida(x) == True  and  x == tokens[0]:
               data = x    
           elif projetoValido(x)==True  and x == tokens[(len(tokens)-1)]:
               projeto = x
@@ -172,7 +172,7 @@ def listar():
          texto = str(numero(parametro))+ chr(32) + orgData  + chr(32) + orgHora  + prioridade + x[0] + chr(32) + x[1][3] + chr(32) + x[1][4]
          if prioridade == '(A)':
              printCores(texto, RED + BOLD)
-         elif  prioridade == '(B)':
+         elif prioridade == '(B)':
              printCores(texto,BLUE)
          elif prioridade == '(C)':
              printCores(texto,YELLOW)
@@ -184,7 +184,7 @@ def listar():
          texto = str(numero(parametro))+ chr(32) + orgData  + chr(32) + hora  + prioridade + x[0] + chr(32) + x[1][3] + chr(32) + x[1][4]
          if prioridade == '(A)':
              printCores(texto, RED + BOLD)
-         elif  prioridade == '(B)':
+         elif prioridade == '(B)':
              printCores(texto,BLUE)
          elif prioridade == '(C)':
              printCores(texto,YELLOW)
@@ -197,7 +197,7 @@ def listar():
          texto = str(numero(parametro))+ chr(32)+ data  + chr(32) + orgHora  + prioridade + x[0] + chr(32) + x[1][3] + chr(32) + x[1][4]
          if prioridade == '(A)':
              printCores(texto, RED + BOLD)
-         elif  prioridade == '(B)':
+         elif prioridade == '(B)':
              printCores(texto,BLUE)
          elif prioridade == '(C)':
              printCores(texto,YELLOW)
@@ -209,7 +209,7 @@ def listar():
          texto = str(numero(parametro))+ chr(32)+ data  + chr(32) + hora  + prioridade + x[0] + chr(32) + x[1][3] + chr(32) + x[1][4]
          if prioridade == '(A)':
              printCores(texto, RED + BOLD)
-         elif  prioridade == '(B)':
+         elif prioridade == '(B)':
              printCores(texto,BLUE)
          elif prioridade == '(C)':
              printCores(texto,YELLOW)
