@@ -1,0 +1,2 @@
+Comer File
+    comprar cigarro    @posto +vicio
